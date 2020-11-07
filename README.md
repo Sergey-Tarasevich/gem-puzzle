@@ -1,1 +1,3 @@
-# gem-puzzle
+sergey-tarasevich-JS2020Q3
+
+Private repository for @sergey-tarasevich

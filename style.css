@@ -1,0 +1,149 @@
+body.body-modal {
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+    font-size: 14px;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    max-height: 100%;
+    min-height: 300px;
+    /* width: 80vw;
+    height: 80vh; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+#audio {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.puzzle__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.puzzle__header {
+    display: flex;
+}
+
+.puzzle__button {
+    margin: 4px;
+    padding: 12px;
+    font-size: 0.95rem;
+    background-color: rgb(122, 23, 23);
+    color: bold rgb(24, 22, 22);
+}
+
+.puzzle__move-time {
+    display: flex;
+    justify-content: space-evenly;
+    color: red;
+    font-size: 2rem;
+}
+
+.puzzle__main {
+    display: grid;
+    gap: 5px;
+    padding: 18px;
+}
+
+p {
+    color: antiquewhite;
+}
+
+.puzzle__item-wrapper {
+    width: 100px;
+    height: 100px;
+}
+
+.puzzle__item {
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(211, 77, 0);
+    border-radius: 25px;
+}
+
+.puzzle__footer {
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+}
+
+.puzzle__field-size {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+.puzzle__other-size {
+    display: flex;
+}
+
+.puzzle__modal-opacity {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 253, 253);
+    opacity: 0.5;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.puzzle__modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.puzzle__modal-content {
+    background-color: rgb(148, 60, 60);
+    border-radius: 5%;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.puzzle__modal-paragraph {
+    margin: 10px 0;
+}
+
+.puzzle__modal_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.puzzle__modal-table {
+    margin: 10px;
+}
+
+.modal__table-items {
+    padding: 10px;
+    text-align: center;
+}
