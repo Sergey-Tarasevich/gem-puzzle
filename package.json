@@ -21,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a1exymoroz/gem-puzzle.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/a1exymoroz/gem-puzzle/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/a1exymoroz/gem-puzzle#readme",
+  "homepage": "",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
