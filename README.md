@@ -1,3 +1,3 @@
 sergey-tarasevich-JS2020Q3
 
-Private repository for @sergey-tarasevich
+https://github.com/Sergey-Tarasevich/gem-puzzle.git
